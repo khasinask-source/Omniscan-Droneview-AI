@@ -9,7 +9,7 @@ st.title("🚁 Drone Object Detection Demo")
 
 # LOAD MODEL (AUTO DOWNLOAD)
 
-model = YOLO("yolov8n.pt")
+model = YOLO("yolov8m.pt")
 
 option = st.selectbox("Choose Input", ["Image", "Video"])
 
